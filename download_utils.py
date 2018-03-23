@@ -51,7 +51,7 @@ def download_file(url, file_path):
         raise e
     finally:
         bar.close()
-        if os.path.exists(file_path) and os.path.getsize(file_path) != total_size:
+        if os.path.exists(file_path) and os.path.getsize(file_path) < total_size:
             incomplete_download = True
             os.remove(file_path)
     if incomplete_download:
