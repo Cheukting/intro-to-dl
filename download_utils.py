@@ -91,16 +91,16 @@ def link_all_keras_resources():
 
 
 def link_week_3_resources():
-    download_file("http://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz", ".")
-    download_file("http://www.robots.ox.ac.uk/~vgg/data/flowers/102/imagelabels.mat", ".")
+    download_file("http://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz", "./102flowers.tgz")
+    download_file("http://www.robots.ox.ac.uk/~vgg/data/flowers/102/imagelabels.mat", "./imagelabels.mat")
 
 
 def link_week_4_resources():
-    download_file("http://www.cs.columbia.edu/CAVE/databases/pubfig/download/lfw_attributes.txt", ".")
-    download_file("http://vis-www.cs.umass.edu/lfw/lfw-deepfunneled.tgz", ".")
-    download_file("http://vis-www.cs.umass.edu/lfw/lfw.tgz", ".")
+    download_file("http://www.cs.columbia.edu/CAVE/databases/pubfig/download/lfw_attributes.txt", "./lfw_attributes.txt")
+    download_file("http://vis-www.cs.umass.edu/lfw/lfw-deepfunneled.tgz", "./lfw-deepfunneled.tgz")
+    download_file("http://vis-www.cs.umass.edu/lfw/lfw.tgz", "./lfw.tgz")
 
 def link_week_6_resources():
-    download_file("http://msvocds.blob.core.windows.net/coco2014/train2014.zip", ".")
-    download_file("http://msvocds.blob.core.windows.net/coco2014/val2014.zip", ".")
-    download_file("http://msvocds.blob.core.windows.net/annotations-1-0-3/captions_train-val2014.zip", ".")
+    download_file("http://msvocds.blob.core.windows.net/coco2014/train2014.zip", "./train2014.zip")
+    download_file("http://msvocds.blob.core.windows.net/coco2014/val2014.zip", "./val2014.zip")
+    download_file("http://msvocds.blob.core.windows.net/annotations-1-0-3/captions_train-val2014.zip", "./captions_train-val2014.zip")
